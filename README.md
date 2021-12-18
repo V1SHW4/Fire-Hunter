@@ -7,6 +7,8 @@ TERMUX
 
 $git clone https://github.com/KiLL3R-xRO/Fire-Hunter
 
+$cd Fire-Hunter
+
 $pip install -r requirements.txt
 
 $python main.py
