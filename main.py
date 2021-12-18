@@ -47,7 +47,7 @@ elif choice=="2":
             else:
                 print()
     except:
-        " AN ERROR OCCURED ! PLEASE CHECK DATABASE VULNERABILITY USING OPTION [1]"
+        print(" AN ERROR OCCURED ! PLEASE CHECK DATABASE VULNERABILITY USING OPTION [1]")
 elif choice=="3":
     try:
         import config
