@@ -17,7 +17,7 @@ choice=input(" Please Enter Your Choice To Continue : ")
 if choice=="1":
     databaseurl=input("[-]ENTER DATABASE URL : ")
     try:
-        r = requests.get(databaseurl+ '.json')
+        r = requests.get(databaseurl+ '/.json')
         if r.status_code==401:
             print("\n THIS DATABASES'S SECURITY RULES ARE QUITE GOOD.TRY AUTHENTICATED ATTACK")
         elif r.status_code==200:
@@ -32,7 +32,7 @@ elif choice=="9":
 elif choice=="2":
     databaseurl = input("[-]ENTER DATABASE URL : ")
     try:
-        r=requests.get(databaseurl+'.json')
+        r=requests.get(databaseurl+'/.json')
         if r.status_code==200:
             print("\nHERE IS FULL DATABASE \n")
             time.sleep(5)
