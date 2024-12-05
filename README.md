@@ -1,9 +1,7 @@
 # Fire-Hunter
-POWERFUL PYTHON SCRIPT FOR SCANNING AMD EXPLOITING VULNERABLE FIREBASE DATABASES
-
+Scan and Exploits Vulnerable Firebase Databases
 INSTALLATION
 ___________________________________________
-TERMUX
 
 $git clone https://github.com/KiLL3R-xRO/Fire-Hunter
 
